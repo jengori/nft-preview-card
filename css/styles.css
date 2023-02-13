@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+
+}
+
+hr {
+    border: none;
+    background-color: hsl(215, 51%, 70%) ;
+    height: 1px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+table {
+    min-width: 300px;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 600px;
+    padding-left: 28px;
+    padding-right: 28px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.main-image-div {
+    background-color: hsl(178, 100%, 50%);
+    /* background-image: url("../images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center; */
+    border-radius: 10px;
+}
+
+.main-image {
+    border-radius: 10px;
+    display: block;
+    margin: 26px auto auto auto;
+    width: 100%;
+}
+
+.main-image:hover {
+    opacity: 50%;
+}
+
+.equilibrium-link {
+    color: white;
+    text-decoration: none;
+}
+
+.equilibrium-link:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.main-image:hover + .eye-image {
+    display: block;
+}
+
+.days {
+    text-align: right;
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+.jules-image {
+    border-color: white;
+    border-radius: 100%;
+    border-style: solid;
+
+    border-width: 1px;
+    width: 40px;;
+
+}
+
+.name {
+    color: white;
+    font-weight: 400px;
+    text-decoration: none;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.eye-image {
+    display: none;
+    top: 150px;
+    left: 155px;
+    position: absolute;
+
+}
+
+
+
+
